@@ -1,0 +1,60 @@
+<style type="text/css">
+  .homes {
+    background-image: url('assets/imgs/fond_ecran2.jpg');
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+
+  }
+
+  .button:hover {
+
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+  }
+  .button {
+    margin-top: 10%;
+    width:  146px ;
+    height: 120px;
+    opacity: 1;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    border-width: 0px;}
+
+</style>
+<ion-header>
+
+
+
+</ion-header>
+
+<ion-content class="homes"  >
+  <div >
+    <button class="button " STYLE="  background-image: url('assets/imgs/sans titre-1.png'); font-family:Sans-serif; margin-top: 20px;  "color="violet"  outline ion-button icon-start   (click)="ouvriralphabetpage()">
+
+
+    </button>
+    <button class="button image_button" STYLE="  background-image: url('assets/imgs/Nombres.png'); margin-top: 20px;  "color="violet"  outline ion-button icon-start   (click)="ouvrirnombrepage()">
+
+
+    </button>
+
+    <br>
+    <div STYLE="  margin-top: 0px; ">
+
+      <button STYLE="  background-image: url('assets/imgs/jours.png');"  outline ion-button icon-start   (click)="ouvrirJoursPage()">   </button>
+      <button STYLE="  background-image: url('assets/imgs/mois.png');"  outline ion-button icon-start   (click)="ouvrirMoisPage()">   </button>
+      <button STYLE="  background-image: url('assets/imgs/fruitlegumes.png');"  outline ion-button icon-start   (click)="ouvrirFruitLegumePage()">   </button>
+      <button STYLE="  background-image: url('assets/imgs/animeaux.png');"  outline ion-button icon-start   (click)="ouvrirAnimeauxPage()">   </button>
+      <button STYLE=" margin-top: 60px;width: 191px;height: 37px;  background-image: url('assets/imgs/retour.png');"  outline ion-button icon-start   (click)="ouvrirhomepage()">   </button>
+
+    </div>
+
+</div>
+
+
+
+</ion-content>

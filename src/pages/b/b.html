@@ -1,0 +1,98 @@
+<!--
+  Generated template for the AlphabetPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <style type="text/css">
+    .homes {
+      background-image: url('assets/imgs/fond_ecran3.jpg');
+
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      width: 100%;
+      height: 100%;
+      bottom: 0px;}
+    .retour{
+      margin-top: 70%;
+
+    }
+    .button-retour{
+      margin-left: -16px;
+      background-image: url('assets/imgs/retour2.png');
+      width: 54px;
+      height: 108px;  border-width: 0px;
+    }
+    .button-avance{
+
+      background-image: url('assets/imgs/avance.png');
+      width: 54px;
+      height: 108px;   border-width: 0px;
+    }
+    .button-alphabet{
+      background-image: url('assets/imgs/alphabet/b.png');
+      width: 185px;
+      height: 445px;  border-width: 0px;
+    }
+    .button-son
+    {
+      background-image: url('assets/imgs/son.png');
+      width: 108px;
+      height: 54px;   border-width: 0px;
+    }
+    .button-menu{
+      background-image: url('assets/imgs/menu/menu.png');
+      width: 191px;
+      height: 35px;   border-width: 0px;
+    }
+    .menu
+    {position: absolute;
+      bottom   : 0px;
+      left: 20%;}
+    .son{
+      position: absolute;
+      top: -5px;
+      left: 31%;
+    }
+    .alphabet
+    {
+      position: absolute;
+      top: 35px;
+      left: 20%;
+    }
+    .avance{
+      margin-top: 70%;
+      position: absolute;
+      top: 0px;
+      right: -2px;
+    }
+
+  </style>
+</ion-header>
+
+
+<ion-content  class="homes" padding>
+  <div class="retour">
+    <button  class="button-retour"  outline ion-button icon-start   (click)="ouvrirprecedentpage()">   </button>
+  </div>
+  <div class="son">
+    <button  class="button-son"  outline ion-button icon-start   (click)="ouvrirJoursPage()">   </button>
+
+  </div>
+  <div class="alphabet">
+    <button  class="button-alphabet"  outline ion-button icon-start   (click)="ouvrirJoursPage()">   </button>
+
+  </div>
+  <div class="menu">
+    <button  class="button-menu"  outline ion-button icon-start   (click)="ouvrirmenupage()">   </button>
+  </div>
+
+
+  <div class="avance">
+    <button class="button-avance "  outline ion-button icon-start   (click)="ouvrircpage()">  </button>
+  </div>
+
+</ion-content>

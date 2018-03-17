@@ -1,14 +1,26 @@
+<style type="text/css">
+  .homes {
+    background-image: url('assets/imgs/fond_ecran.jpg');
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;}
+.commencer
+{margin-top: 250px;
+margin-left: 20px;
+  background-image: url('assets/imgs/commencer.png');
+width: 237px  ;
+height: 67px;
+
+  border-width: 0px;}
+</style>
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
+
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content  class="homes" padding>
+ <button class="commencer" ion-button outline (click)="ouvriraccuielpage()"></button>
 </ion-content>
